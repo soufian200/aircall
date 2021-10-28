@@ -13,13 +13,30 @@
   width: 376px;
   height: 666px;
   z-index: 100;
-
   background: white;
   border-radius: 3px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+  overflow: auto;
 }
 
 #app .container-view {
-  padding: 20px;
+  /* padding: 20px; */
+
 }
 
+a{
+  text-decoration: none;
+}
+
+.content{
+  /* background-color: red; */
+  /* padding-top: 70px; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

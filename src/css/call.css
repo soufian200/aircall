@@ -1,0 +1,80 @@
+
+.call{
+    /* background-color: red; */
+    padding: 15px 0;
+    display: flex;
+    border-bottom: solid 1px #eee;
+}
+
+.call:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+
+
+.account{
+    /* background-color: green; */
+    flex: 1;
+}
+
+.profile{
+    width: 50px;
+    height: 50px;
+    background-color: #2196f3;
+    border-radius: 100px;
+}
+.profile > svg{
+    color: white
+}
+
+.info{
+    /* background-color: purple; */
+    flex: 3;
+    margin-left: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.call_info{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.date{
+    margin: 0 10px;
+    
+}
+.number{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.via{
+    color: #e91e63;
+    font-size: 12px;
+}
+
+.recall{
+    /* background-color: yellow; */
+    flex: 1;
+    position: relative;
+}
+
+.recall .vertical-dots{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    transition: all .3s ease;
+
+}
+
+.recall .vertical-dots:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+
